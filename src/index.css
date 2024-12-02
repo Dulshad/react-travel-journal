@@ -22,7 +22,7 @@ body {
     height: 100%;
 }
 
-.travel-container {
+.travel_container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +30,7 @@ body {
     margin: 1em 2.5em;
 }
 
-.travel-container > *:not(:last-child) {
-    border-bottom: 1px solid #F5F5F5; /* Adjust the color and style as needed */
-    padding-bottom: 1em; /* Optional: Add some padding for spacing */
+.travel_container > *:not(:last-child) {
+    border-bottom: 1px solid #F5F5F5;
+    padding-bottom: 1em;
 }

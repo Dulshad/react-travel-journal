@@ -1,11 +1,11 @@
-.travel-section {
+.travel_section {
     display: flex;
     margin-bottom: 1em;
     width: 100%;
     max-width: 480px;
 }
 
-.travel-img {
+.travel_img {
     max-width: 125px;
     object-fit: cover;
     border-radius: 5px;
@@ -15,21 +15,21 @@
     overflow: hidden;
 }
 
-.travel-title {
+.travel_title {
     font-size: 1.5625rem;
 }
 
-.travel-subtitle {
+.travel_subtitle {
     font-size: 0.625rem;
     padding-top: 1.7em;
     padding-bottom: 1.7em;
 }
 
-.travel-info-container {
+.travel_info_container {
     margin: 1.25rem;
 }
 
-.travel-description {
+.travel_description {
     font-size: 0.625rem;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -37,49 +37,49 @@
 
 
 /* location */
-.travel-location {
+.travel_location {
     display: flex;
     align-items: center;
     font-size: 0.625rem;
 }
 
-.travel-location-icon {
+.travel_location_icon {
     padding-right: 0.25em;
     height: 0.625rem;
 }
 
-.travel-location-location {
+.travel_location_location {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-.travel-location-link {
+.travel_location_link {
     padding-left: 0.75em;
     color: #918E9B;
     font-size: 0.625rem;
 }
 
 @media(min-width: 600px) {
-    .travel-section {
+    .travel_section {
         max-width: 800px;
     }
 
-    .travel-description {
+    .travel_description {
         font-size: 0.9rem;
     }
-    .travel-location-link {
+    .travel_location_link {
         font-size: 0.8rem;
     }
 
-    .travel-location {
+    .travel_location {
         font-size: 0.8rem;
     }
 
-    .travel-location-icon {
+    .travel_location_icon {
         height: 0.8rem;
     }
 
-    .travel-subtitle {
+    .travel_subtitle {
         font-size: 0.8rem;
     }
 }

@@ -3,8 +3,8 @@ import classNames from 'classnames'
 import globe from "../../images/globe.png"
 
 const Header = () => {
-    const logoClasses = classNames(styles['header-logo'], styles['header-item'])
-    const titleClasses = classNames(styles['header-title'], styles['header-item'])
+    const logoClasses = classNames(styles.header_logo, styles.header_item)
+    const titleClasses = classNames(styles.header_title, styles.header_item)
 
     return (
         <header>
